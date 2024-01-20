@@ -8,8 +8,8 @@ netstat :
 nstat :
 - sudo apt-get install ethtool
 --------------------
-ss :
-- ss -a | grep -E '^(tcp|udp)'
+sudo apt install bpfcc-tools
+sudo tcpconnect-bpfcc
 -------------------
 To install sar
 - sudo apt install sysstat
